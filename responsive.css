@@ -1,5 +1,68 @@
-@media only screen and (max-width: 576px) {
-    .container{
-        grid-template-columns: repeat(1, 1fr);
-    }
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  br {
+    display: block;
+  }
+
+  .menu-logo {
+    width: 30%;
+    float: left;
+  }
+
+  .menu-logo h2{
+    text-align: left;
+  } 
+
+  .menu-bar {
+    width: 70%;
+    float: left;
+  }
+
+  .menu-bar ul{
+    text-align: right;
+}
+
+  .menu-bar ul li{
+      display: inline-block;
+  }
+
+  .menu-bar ul li a{
+      padding: 70px 7px;
+  }
+
+  .brand {
+    padding: 50px 0;
+  }
+
+
+  .brand h1 {
+      text-align: center;
+      font-size: 64px;
+      line-height: 75px;
+      padding: 30px 0;
+  }
+
+  .brand p {
+    padding: 0px;
+    font-size: 16px;
+  }
+
+
+  .sponsors{
+    margin-top: 120px;
+  }
+
+  .sponsor {
+    padding: 0;
+  }
+
+  footer{
+    height: 70px;
+    margin-bottom: 50px;
+  }
+
 }
